@@ -48,6 +48,7 @@ public class MainActivity extends AppCompatActivity {
 
     List<HistoryEntity> historyEntity;
     List<PojoHistory> pojoHistories;
+    List<HistoryActivity> createNewLine;
 
 
 
