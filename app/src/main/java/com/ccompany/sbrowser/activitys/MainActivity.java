@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
     ProgressBar progress_bar;
     WebView web_view;
 
-    ImageView reload_page, home_page, forward_page, history_page;
+    ImageView reFresh_page, home_page, forward_page, history_page;
 
     List<HistoryEntity> historyEntity;
     List<PojoHistory> pojoHistories;
@@ -63,7 +63,7 @@ public class MainActivity extends AppCompatActivity {
         input_url = findViewById(R.id.input_url);
         progress_bar = findViewById(R.id.progress_bar);
         web_view = findViewById(R.id.web_view);
-        reload_page = findViewById(R.id.reload_page);
+        reFresh_page = findViewById(R.id.reFresh_page);
         home_page = findViewById(R.id.home_page);
         forward_page = findViewById(R.id.forward_page);
         history_page = findViewById(R.id.history_page);
